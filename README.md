@@ -1,7 +1,7 @@
 # Global Street Poet 
 
 This project is aimed at **registration** onto Global Street Poet service.
-Please see my [live site] (#) deployed on Github. 
+Please see my [live site] (https://global-street-poet-manager.herokuapp.com/) deployed on Heroku.
 
 ### Table of Contents
 
