@@ -1,26 +1,36 @@
 {% extends "base.html" %}
 {% block section %}
 
+    <h2 class="center-align">Sign-Up</h2>
+
     <div class="row">
-        <div class="col s12 m8 center_align">
-            <div class="card">
-                <div class="card-image">
-                    <img src="images/sample-1.jpg">
+        <form class="col s12 m8 offset-m2">
+            <div class="card-panel grey">
+            <!---Username  Field-->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="fas fa-user-plus prefix yellow-text text-darken-4"></i>
+                        <input id="username" name="username" type="text" class="validate">
+                        <label for="username">Username</label>
+                    </div>
                 </div>
-                <div class="card-content">
-                    <p>"Once upon a midnight dreary, while I pondered, weak and weary, <br>
-                        Over many a quaint and curious volume of forgotten lore— <br>
-                        While I nodded, nearly napping, suddenly there came a tapping, <br>
-                        As of some one gently rapping, rapping at my chamber door."
-                    </p>
+                <!---Password Field-->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="fas fa-user-lock prefix yellow-text text-darken-4"></i>
+                        <input id="password" name="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                    </div>
                 </div>
-                <div class="card-action">
-                    <a href="#">Edgar Allen-Poe</a>
+                <!---Sign Up Field/Button-->
+                <div class="row">
+                    <button type="submit" class="col s12 btn-large red darken-4 text-shadow">
+                    Sign Up <i class="fas fa-sign-in-alt"></i>
+                    </button>
                 </div>
             </div>
-        </div>
+        </form>
     </div>
-  
-          
+       
 
 {% endblock %}
